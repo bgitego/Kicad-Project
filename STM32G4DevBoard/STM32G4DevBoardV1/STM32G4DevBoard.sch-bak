@@ -289,7 +289,7 @@ U 1 1 5D7B07FE
 P 4600 5600
 F 0 "SWD1" H 4680 5592 50  0000 L CNN
 F 1 "Conn_01x04" H 4680 5501 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 4600 5600 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 4600 5600 50  0001 C CNN
 F 3 "~" H 4600 5600 50  0001 C CNN
 	1    4600 5600
 	-1   0    0    1   
@@ -527,7 +527,7 @@ U 1 1 5D863C5B
 P 4600 4525
 F 0 "J2" H 4518 5242 50  0000 C CNN
 F 1 "Conn_01x13" H 4900 5150 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x13_P2.54mm_Vertical" H 4600 4525 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 4600 4525 50  0001 C CNN
 F 3 "~" H 4600 4525 50  0001 C CNN
 	1    4600 4525
 	-1   0    0    -1  
@@ -902,7 +902,7 @@ U 1 1 5D86086A
 P 8250 3750
 F 0 "J3" H 8330 3742 50  0000 L CNN
 F 1 "Conn_01x13" H 8330 3651 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x13_P2.54mm_Vertical" H 8250 3750 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 8250 3750 50  0001 C CNN
 F 3 "~" H 8250 3750 50  0001 C CNN
 	1    8250 3750
 	1    0    0    -1  
