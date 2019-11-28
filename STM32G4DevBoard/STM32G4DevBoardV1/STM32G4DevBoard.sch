@@ -366,8 +366,6 @@ Wire Wire Line
 Wire Wire Line
 	6450 2900 6450 3100
 Wire Wire Line
-	6175 2675 6025 2675
-Wire Wire Line
 	6550 2675 6550 3150
 Connection ~ 6550 2675
 Wire Wire Line
@@ -381,7 +379,7 @@ F 1 ".1uF" V 6250 2450 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6363 2525 50  0001 C CNN
 F 3 "~" H 6325 2675 50  0001 C CNN
 	1    6325 2675
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	6550 2425 6550 2675
@@ -909,4 +907,6 @@ F 3 "~" H 8250 3750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8050 4350 7900 4350
+Wire Wire Line
+	6175 2675 6025 2675
 $EndSCHEMATC
