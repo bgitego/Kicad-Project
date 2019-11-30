@@ -644,22 +644,14 @@ Wire Wire Line
 	7200 4450 7100 4450
 Wire Wire Line
 	4800 5400 4900 5400
-Text GLabel 4900 5600 2    50   Input ~ 0
-SWDIO
 Wire Wire Line
 	4800 5600 4900 5600
-Text GLabel 4900 5500 2    50   Input ~ 0
-SWCLK
 Wire Wire Line
 	4900 5500 4800 5500
 Wire Wire Line
 	7200 4750 7100 4750
-Text GLabel 7200 4750 2    50   Input ~ 0
-SWCLK
 Wire Wire Line
 	7200 4650 7100 4650
-Text GLabel 7200 4650 2    50   Input ~ 0
-SWDIO
 Wire Wire Line
 	6450 5150 6225 5150
 Text GLabel 6225 5150 0    50   Input ~ 0
@@ -909,4 +901,14 @@ Wire Wire Line
 	8050 4350 7900 4350
 Wire Wire Line
 	6175 2675 6025 2675
+Text GLabel 4900 5500 2    50   Input ~ 0
+SWCLK_P
+Text GLabel 4900 5600 2    50   Input ~ 0
+SWDIO_M
+Text GLabel 7700 4500 2    50   Input ~ 0
+SWCLK_P
+Text GLabel 7200 4750 2    50   Input ~ 0
+SWCLK_P
+Text GLabel 7200 4650 2    50   Input ~ 0
+SWDIO_M
 $EndSCHEMATC
