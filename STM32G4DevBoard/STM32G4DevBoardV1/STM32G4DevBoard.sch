@@ -258,8 +258,6 @@ Wire Wire Line
 	7100 3350 8050 3350
 Text GLabel 4900 5700 2    50   Input ~ 0
 3.3V_VDD
-Text GLabel 4900 5400 2    50   Input ~ 0
-GND
 Wire Wire Line
 	6650 2725 6650 2875
 Connection ~ 6650 2725
@@ -271,8 +269,6 @@ Text GLabel 7875 3150 0    50   Input ~ 0
 3.3V_VDDA
 Text GLabel 7900 4350 0    50   Input ~ 0
 5V_USB
-Text GLabel 7900 4250 0    50   Input ~ 0
-GND
 Text GLabel 7200 4550 2    50   Input ~ 0
 USB_D+
 Text GLabel 7200 4450 2    50   Input ~ 0
@@ -537,13 +533,9 @@ BOOT0
 Wire Wire Line
 	5000 5125 4800 5125
 Wire Wire Line
-	8050 4250 7900 4250
-Wire Wire Line
 	8050 3250 7875 3250
 Wire Wire Line
 	8050 3150 7875 3150
-Wire Wire Line
-	5000 4025 4800 4025
 Wire Wire Line
 	7100 4350 7200 4350
 Wire Wire Line
@@ -618,8 +610,6 @@ Text GLabel 5925 4450 0    50   Input ~ 0
 PB3
 Wire Wire Line
 	5000 4125 4800 4125
-Text GLabel 5000 4025 2    50   Input ~ 0
-GND
 Wire Wire Line
 	6000 4350 5875 4350
 Text GLabel 5875 4350 0    50   Input ~ 0
@@ -643,8 +633,6 @@ Wire Wire Line
 Wire Wire Line
 	7200 4450 7100 4450
 Wire Wire Line
-	4800 5400 4900 5400
-Wire Wire Line
 	4800 5600 4900 5600
 Wire Wire Line
 	4900 5500 4800 5500
@@ -652,10 +640,6 @@ Wire Wire Line
 	7200 4750 7100 4750
 Wire Wire Line
 	7200 4650 7100 4650
-Wire Wire Line
-	6450 5150 6225 5150
-Text GLabel 6225 5150 0    50   Input ~ 0
-GND
 Wire Wire Line
 	4775 3550 4975 3550
 Wire Wire Line
@@ -902,13 +886,27 @@ Wire Wire Line
 Wire Wire Line
 	6175 2675 6025 2675
 Text GLabel 4900 5500 2    50   Input ~ 0
-SWCLK_P
-Text GLabel 4900 5600 2    50   Input ~ 0
-SWDIO_M
-Text GLabel 7700 4500 2    50   Input ~ 0
-SWCLK_P
+SWCLK
 Text GLabel 7200 4750 2    50   Input ~ 0
-SWCLK_P
+SWCLK
 Text GLabel 7200 4650 2    50   Input ~ 0
-SWDIO_M
+SWDIO
+Wire Wire Line
+	4800 5400 4900 5400
+Wire Wire Line
+	8050 4250 7900 4250
+Text GLabel 7900 4250 0    50   Input ~ 0
+GND
+Text GLabel 4900 5400 2    50   Input ~ 0
+GND
+Wire Wire Line
+	5000 4025 4800 4025
+Text GLabel 5000 4025 2    50   Input ~ 0
+GND
+Wire Wire Line
+	6450 5150 6225 5150
+Text GLabel 6225 5150 0    50   Input ~ 0
+GND
+Text GLabel 4900 5600 2    50   Input ~ 0
+SWDIO
 $EndSCHEMATC
