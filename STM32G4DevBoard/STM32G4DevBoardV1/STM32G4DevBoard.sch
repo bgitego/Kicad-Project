@@ -254,8 +254,6 @@ F 3 "" H 7875 3250 50  0001 C CNN
 	1    7875 3250
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	7100 3350 8050 3350
 Text GLabel 4900 5700 2    50   Input ~ 0
 3.3V_VDD
 Wire Wire Line
@@ -615,20 +613,6 @@ Wire Wire Line
 Text GLabel 5875 4350 0    50   Input ~ 0
 SWO
 Wire Wire Line
-	7100 4050 8050 4050
-Wire Wire Line
-	7100 3950 8050 3950
-Wire Wire Line
-	7100 3850 8050 3850
-Wire Wire Line
-	7100 3750 8050 3750
-Wire Wire Line
-	7100 3650 8050 3650
-Wire Wire Line
-	7100 3550 8050 3550
-Wire Wire Line
-	7100 3450 8050 3450
-Wire Wire Line
 	7200 4550 7100 4550
 Wire Wire Line
 	7200 4450 7100 4450
@@ -909,4 +893,70 @@ Text GLabel 6225 5150 0    50   Input ~ 0
 GND
 Text GLabel 4900 5600 2    50   Input ~ 0
 SWDIO
+Text GLabel 9050 3250 2    50   Input ~ 0
+PA0
+Text GLabel 7900 3350 0    50   Input ~ 0
+PA0
+Wire Wire Line
+	8050 3350 7900 3350
+Wire Wire Line
+	7100 3350 7200 3350
+Text GLabel 7200 4050 2    50   Input ~ 0
+PA7
+Text GLabel 7200 3950 2    50   Input ~ 0
+PA6
+Text GLabel 7200 3850 2    50   Input ~ 0
+PA5
+Text GLabel 7200 3750 2    50   Input ~ 0
+PA4
+Text GLabel 7200 3650 2    50   Input ~ 0
+PA3
+Text GLabel 7200 3550 2    50   Input ~ 0
+PA2
+Text GLabel 7200 3450 2    50   Input ~ 0
+PA1
+Text GLabel 7200 3350 2    50   Input ~ 0
+PA0
+Text GLabel 7900 4050 0    50   Input ~ 0
+PA7
+Text GLabel 7900 3950 0    50   Input ~ 0
+PA6
+Text GLabel 7900 3850 0    50   Input ~ 0
+PA5
+Text GLabel 7900 3750 0    50   Input ~ 0
+PA4
+Text GLabel 7900 3650 0    50   Input ~ 0
+PA3
+Text GLabel 7900 3550 0    50   Input ~ 0
+PA2
+Text GLabel 7900 3450 0    50   Input ~ 0
+PA1
+Wire Wire Line
+	7200 3450 7100 3450
+Wire Wire Line
+	7100 3550 7200 3550
+Wire Wire Line
+	7100 4050 7200 4050
+Wire Wire Line
+	7200 3950 7100 3950
+Wire Wire Line
+	7100 3850 7200 3850
+Wire Wire Line
+	7200 3750 7100 3750
+Wire Wire Line
+	7200 3650 7100 3650
+Wire Wire Line
+	7900 3450 8050 3450
+Wire Wire Line
+	8050 3550 7900 3550
+Wire Wire Line
+	7900 3650 8050 3650
+Wire Wire Line
+	7900 3750 8050 3750
+Wire Wire Line
+	8050 3850 7900 3850
+Wire Wire Line
+	7900 3950 8050 3950
+Wire Wire Line
+	8050 4050 7900 4050
 $EndSCHEMATC
