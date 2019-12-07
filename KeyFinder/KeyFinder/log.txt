@@ -1,0 +1,6 @@
+2:16:52 PM: Error occurred loading symbol library Fiber_Optic.
+
+Unable to open filename “C:\Program Files\KiCad\share\kicad\library\Fiber_Optic.lib” for reading
+2:16:52 PM: Error occurred loading symbol library Security.
+
+Unable to open filename “C:\Program Files\KiCad\share\kicad\library\Security.lib” for reading

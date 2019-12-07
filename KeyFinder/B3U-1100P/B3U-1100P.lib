@@ -1,0 +1,39 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# B3U-1100P
+#
+DEF B3U-1100P S 0 40 Y Y 1 L N
+F0 "S" 300 -200 50 H V L BNN
+F1 "B3U-1100P" 301 -401 50 H V L BNN
+F2 "SW_B3U-1100P" 0 0 50 H I L BNN
+F3 "None" 0 0 50 H I L BNN
+F4 "B3U-1100P" 0 0 50 H I L BNN
+F5 "https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/B3U-1100P/SW1021CT-ND/1534358?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" 0 0 50 H I L BNN
+F6 "SW1021CT-ND" 0 0 50 H I L BNN
+F7 "Omron" 0 0 50 H I L BNN
+F8 "Switch Tactile N.O. SPST Projected Plunger PC Pins 0.05A 24VDC 1.47N Thru-Hole Bag" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 -100 -100 100 0 N
+P 2 0 0 10 100 0 300 0 N
+P 2 0 0 10 -100 0 -300 0 N
+P 2 0 0 10 -100 -200 0 -200 N
+P 2 0 0 10 0 -200 100 -200 N
+P 2 0 0 10 0 -200 0 -300 N
+P 2 0 0 10 -300 200 300 200 N
+P 2 0 0 10 300 200 300 -300 N
+P 2 0 0 10 300 -300 -300 -300 N
+P 2 0 0 10 -300 -300 -300 200 N
+S -325 -25 -300 25 0 0 0 F
+S 300 -25 325 25 0 0 0 F
+S -25 -325 25 -300 0 0 0 F
+S -100 -200 100 -175 0 0 0 F
+X 1 1 500 0 200 L 40 40 0 0 P 
+X 2 2 -500 0 200 R 40 40 0 0 P 
+X 3 3 0 -500 200 U 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library

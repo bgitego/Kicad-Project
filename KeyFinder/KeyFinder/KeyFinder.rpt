@@ -1,0 +1,14 @@
+** Drc report for C:\Users\bot-10\Documents\KeyFinder\KeyFinder\KeyFinder.kicad_pcb **
+** Created on  **
+
+** Found 3 DRC errors **
+ErrType(45): Footprint has no courtyard defined
+    @ (108.490 mm,55.626 mm): footprint “LS1” has no courtyard defined
+ErrType(45): Footprint has no courtyard defined
+    @ (109.220 mm,62.738 mm): footprint “MK1” has no courtyard defined
+ErrType(45): Footprint has no courtyard defined
+    @ (105.609 mm,56.267 mm): footprint “SW1” has no courtyard defined
+
+** Found 0 unconnected pads **
+
+** End of Report **

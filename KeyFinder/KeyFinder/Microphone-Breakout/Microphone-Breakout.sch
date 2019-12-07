@@ -1,0 +1,129 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Sensor_Audio:SPU0414HR5H-SB-Sensor_Audio MK1
+U 1 1 5D34C3C7
+P 5100 4150
+F 0 "MK1" H 5750 4415 50  0000 C CNN
+F 1 "SPU0414HR5H-SB" H 5750 4324 50  0000 C CNN
+F 2 "Sensor_Audio:SPU0414HR5H-SB" H 6250 3850 50  0001 L CNN
+F 3 "" H 6250 3750 50  0001 L CNN
+F 4 "MEMS Microphones MIC MEMS ANALOG OMNI -22DB" H 6250 3650 50  0001 L CNN "Description"
+F 5 "721-SPU0414HR5H-SB" H 6250 3550 50  0001 L CNN "Mouser Part Number"
+F 6 "Knowles" H 6250 3450 50  0001 L CNN "Manufacturer_Name"
+F 7 "SPU0414HR5H-SB" H 6250 3350 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5100 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0101
+U 1 1 5D34CC74
+P 4825 4075
+F 0 "#PWR0101" H 4825 3925 50  0001 C CNN
+F 1 "+3V3" H 4825 4225 50  0000 C CNN
+F 2 "" H 4825 4075 50  0001 C CNN
+F 3 "" H 4825 4075 50  0001 C CNN
+	1    4825 4075
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5D34D886
+P 4825 4475
+F 0 "#PWR0102" H 4825 4225 50  0001 C CNN
+F 1 "GND" H 4830 4302 50  0000 C CNN
+F 2 "" H 4825 4475 50  0001 C CNN
+F 3 "" H 4825 4475 50  0001 C CNN
+	1    4825 4475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 4150 4825 4150
+Wire Wire Line
+	4825 4150 4825 4075
+$Comp
+L power:+3V3 #PWR0103
+U 1 1 5D3534D8
+P 4450 3500
+F 0 "#PWR0103" H 4450 3350 50  0001 C CNN
+F 1 "+3V3" H 4450 3675 50  0000 C CNN
+F 2 "" H 4450 3500 50  0001 C CNN
+F 3 "" H 4450 3500 50  0001 C CNN
+	1    4450 3500
+	-1   0    0    1   
+$EndComp
+Text GLabel 6450 4150 2    50   Input ~ 0
+GAIN
+Wire Wire Line
+	6450 4150 6400 4150
+Text GLabel 4650 3525 3    50   Input ~ 0
+GAIN
+Text GLabel 4750 3500 3    50   Input ~ 0
+OUTPUT
+Wire Wire Line
+	4650 3300 4650 3525
+Wire Wire Line
+	4450 3300 4450 3500
+$Comp
+L Connector_Generic:Conn_01x04 J1
+U 1 1 5D35296B
+P 4550 3100
+F 0 "J1" V 4514 2812 50  0000 R CNN
+F 1 "Conn_01x04" V 4423 2812 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 4550 3100 50  0001 C CNN
+F 3 "~" H 4550 3100 50  0001 C CNN
+	1    4550 3100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4750 3300 4750 3500
+Text GLabel 6450 4250 2    50   Input ~ 0
+OUTPUT
+Wire Wire Line
+	6450 4250 6400 4250
+$Comp
+L Device:CP1_Small C1
+U 1 1 5D361DC6
+P 4825 4250
+F 0 "C1" H 4625 4300 50  0000 L CNN
+F 1 "10uF" H 4600 4150 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4825 4250 50  0001 C CNN
+F 3 "~" H 4825 4250 50  0001 C CNN
+	1    4825 4250
+	1    0    0    -1  
+$EndComp
+Connection ~ 4825 4150
+Wire Wire Line
+	5100 4250 5100 4350
+Wire Wire Line
+	5100 4350 4825 4350
+Wire Wire Line
+	4825 4350 4825 4475
+Connection ~ 4825 4350
+Wire Wire Line
+	4550 3300 4550 3350
+$Comp
+L power:GND #PWR0104
+U 1 1 5D354B8E
+P 4550 3350
+F 0 "#PWR0104" H 4550 3100 50  0001 C CNN
+F 1 "GND" H 4550 3200 50  0000 C CNN
+F 2 "" H 4550 3350 50  0001 C CNN
+F 3 "" H 4550 3350 50  0001 C CNN
+	1    4550 3350
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
