@@ -138,9 +138,11 @@ Wire Wire Line
 	6675 3325 6525 3325
 Text GLabel 6525 3725 0    50   Input ~ 0
 NRST
+Text GLabel 6550 3900 0    50   Input ~ 0
+VCP_TX
 Wire Wire Line
 	6550 3900 6700 3900
-Text GLabel 6525 4200 0    50   Input ~ 0
+Text GLabel 6550 4000 0    50   Input ~ 0
 VCP_RX
 Wire Wire Line
 	6550 4000 6700 4000
@@ -148,14 +150,12 @@ Text GLabel 6525 4100 0    50   Input ~ 0
 JTDI
 Wire Wire Line
 	6700 4100 6525 4100
-Text GLabel 6550 4000 0    50   Input ~ 0
+Text GLabel 6525 4200 0    50   Input ~ 0
 SWO
 Wire Wire Line
 	6525 4200 6700 4200
+Text GLabel 6525 4300 0    50   Input ~ 0
+GND
 Wire Wire Line
 	6700 4300 6525 4300
-Text GLabel 6525 4300 0    50   Input ~ 0
-VCP_TX
-Text GLabel 6550 3900 0    50   Input ~ 0
-GND
 $EndSCHEMATC
