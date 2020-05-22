@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# LM3410XMF
+#
+DEF LM3410XMF U 0 40 Y Y 1 L N
+F0 "U" -176 399 50 H V L BNN
+F1 "LM3410XMF" -219 -781 50 H V L BNN
+F2 "SOT95P285X120-5N" 0 0 50 H I L BNN
+F3 "National Semiconductor" 0 0 50 H I L BNN
+F4 "SOT-5" 0 0 50 H I L BNN
+F5 "75M6032" 0 0 50 H I L BNN
+F6 "1685357" 0 0 50 H I L BNN
+F7 "LM3410XMF" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 6 -500 300 -500 -600 N
+P 2 0 0 6 -500 -600 500 -600 N
+P 2 0 0 6 500 -600 500 300 N
+P 2 0 0 6 500 300 -500 300 N
+X VIN 5 -700 100 200 R 40 40 0 0 W 
+X FB 3 -700 -100 200 R 40 40 0 0 I 
+X DIM 4 -700 -200 200 R 40 40 0 0 I 
+X GND 2 -700 -400 200 R 40 40 0 0 P 
+X SW 1 700 100 200 L 40 40 0 0 O 
+ENDDRAW
+ENDDEF
+#
+# End Library
