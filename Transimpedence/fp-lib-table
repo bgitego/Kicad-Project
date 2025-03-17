@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Laser-Diode")(type "KiCad")(uri "${KIPRJMOD}/Laser-Diode.pretty")(options "")(descr ""))
+)
